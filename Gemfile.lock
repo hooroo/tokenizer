@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    url-scrambler (0.0.1)
+    url_scrambler (0.0.1)
       msgpack
 
 GEM
@@ -34,4 +34,4 @@ DEPENDENCIES
   pry
   rake
   rspec
-  url-scrambler!
+  url_scrambler!
