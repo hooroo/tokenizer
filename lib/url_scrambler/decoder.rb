@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-module Tokenizer
+module UrlScrambler
   class Decoder
 
     def self.decode(message)

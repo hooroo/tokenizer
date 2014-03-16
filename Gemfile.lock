@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tokenizer (0.0.1)
+    url-scrambler (0.0.1)
       msgpack
 
 GEM
@@ -34,4 +34,4 @@ DEPENDENCIES
   pry
   rake
   rspec
-  tokenizer!
+  url-scrambler!

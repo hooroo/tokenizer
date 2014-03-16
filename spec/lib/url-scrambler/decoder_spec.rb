@@ -1,7 +1,7 @@
 # encoding: utf-8
-require 'tokenizer'
+require 'url_scrambler'
 
-module Tokenizer
+module UrlScrambler
   describe Decoder do
     describe '.decode' do
       let(:encoded_message) { 'gaR0aGlzqWlzIGEgaGFzaA==' }

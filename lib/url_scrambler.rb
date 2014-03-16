@@ -2,10 +2,10 @@
 
 require 'msgpack'
 require 'base64'
-require 'tokenizer/encoder'
-require 'tokenizer/decoder'
+require 'url_scrambler/encoder'
+require 'url_scrambler/decoder'
 
-module Tokenizer
+module UrlScrambler
   class << self
     def encode(message)
       Encoder.encode(message)
