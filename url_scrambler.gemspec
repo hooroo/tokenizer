@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version     = '1.0.0'
   spec.authors     = ['Nicholas Bruning', 'Andrei Miulescu', 'Gabe Rotbart']
   spec.email       = ['nicholas.bruning@hooroo.com', 'andrei@hooroo.com']
-  spec.homepage    = 'https://github.com/hooroo/url-scrambler'
+  spec.homepage    = 'https://github.com/hooroo/url_scrambler'
   spec.description = %q{URL Scrambler leverages MessagePack to turn your objects into portable, URL-safe strings}
   spec.summary     = %q{URL Scrambler leverages MessagePack to turn your objects into portable, URL-safe strings}
   spec.licenses    = ['MIT']
