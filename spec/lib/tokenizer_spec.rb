@@ -1,5 +1,6 @@
 # encoding: utf-8
-require 'url_scrambler'
+require 'spec_helper'
+
 module UrlScrambler
   describe UrlScrambler do
     let(:args) { 'message' }
