@@ -1,6 +1,8 @@
 # URL Scrambler
 
-![TravisCI build status]() ![CodeClimate score]()
+![TravisCI build status]()
+[![Code Climate](https://codeclimate.com/github/hooroo/url_scrambler/badges/gpa.svg)](https://codeclimate.com/github/hooroo/url_scrambler)
+[![Test Coverage](https://codeclimate.com/github/hooroo/url_scrambler/badges/coverage.svg)](https://codeclimate.com/github/hooroo/url_scrambler/coverage)
 
 ![](http://i.imgur.com/jQiWjwG.gif)
 
