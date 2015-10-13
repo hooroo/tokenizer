@@ -1,4 +1,4 @@
-$: << File.expand_path("../../lib", __FILE__)
+require File.join File.expand_path("../../lib", __FILE__), "url_scrambler"
 require 'rspec'
 
 RSpec.configure do |c|

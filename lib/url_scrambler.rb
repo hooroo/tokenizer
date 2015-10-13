@@ -1,19 +1,21 @@
-# encoding: utf-8
-
 require 'msgpack'
 require 'base64'
-require 'url_scrambler/encoder'
+require 'aes'
 require 'url_scrambler/decoder'
+require 'url_scrambler/encoder'
+require 'url_scrambler/exceptions'
+require 'url_scrambler/secured'
 
 module UrlScrambler
-  class << self
-    def encode(message)
-      Encoder.encode(message)
-    end
+  def self.encode(message)
+    Encoder.encode(message)
+  end
 
-    def decode(message)
-      Decoder.decode(message)
-    end
+  def self.decode(message)
+    Decoder.decode(message)
+  end
+
+  def self.secure(key = nil)
+    Secured.new(key)
   end
 end
-
