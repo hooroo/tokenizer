@@ -1,10 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'version'
 
 Gem::Specification.new do |spec|
   spec.name        = 'url_scrambler'
-  spec.version     = '1.0.0'
+  spec.version     = UrlScrambler::VERSION
   spec.authors     = ['Nicholas Bruning', 'Andrei Miulescu', 'Gabe Rotbart']
   spec.email       = ['nicholas.bruning@hooroo.com', 'andrei@hooroo.com']
   spec.homepage    = 'https://github.com/hooroo/url_scrambler'

@@ -1,6 +1,7 @@
 require 'msgpack'
 require 'base64'
 require 'aes'
+require 'version'
 require 'url_scrambler/decoder'
 require 'url_scrambler/encoder'
 require 'url_scrambler/exceptions'
