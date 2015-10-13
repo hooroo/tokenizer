@@ -23,9 +23,16 @@ describe UrlScrambler do
   end
 
   describe ".secure" do
-    subject(:secure) { described_class.secure() }
+    let(:key) { "foobar" }
+    subject(:secure) { described_class.secure(key) }
+
     it "returns a new UrlScrambler::Secured" do
       is_expected.to be_a(UrlScrambler::Secured)
+    end
+
+    it "passes the key to UrlScrambler::Secured" do
+      expect(UrlScrambler::Secured).to receive(:new).with(key)
+      subject
     end
   end
 end
