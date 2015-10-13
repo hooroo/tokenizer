@@ -16,24 +16,9 @@ describe UrlScrambler do
   describe ".decode" do
     subject(:decode) { described_class.decode(encoded) }
 
-    it "returns the original object" do
-      is_expected.to eq(original_object)
-    end
-
-    shared_examples "a decoding error" do
-      it "raises UrlScambler::DecodingError"
-    end
-
-    context "when there is a message pack error" do
-      it_behaves_like "a decoding error"
-    end
-
-    context "when there is a parsing error" do
-      it_behaves_like "a decoding error"
-    end
-
-    context "when there is an end of file error" do
-      it_behaves_like "a decoding error"
+    it "invokes .decode on UrlScrambler::Decoder" do
+      expect(UrlScrambler::Decoder).to receive(:decode).with(encoded)
+      subject
     end
   end
 
