@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name     = 'url_scrambler'
-  spec.version  = '0.0.2'
+  spec.version  = UrlScrambler::VERSION
   spec.date     = '2014-03-14'
   spec.authors  = ['Andrei Miulescu, Gabe Rotbart']
   spec.email    = 'andrei@hooroo.com'
@@ -18,5 +18,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'pry'
 
-  spec.add_dependency 'msgpack'
+  spec.add_dependency 'msgpack', '~>1.2'
 end
