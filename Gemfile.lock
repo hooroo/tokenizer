@@ -10,7 +10,7 @@ GEM
     coderay (1.1.0)
     diff-lcs (1.2.5)
     method_source (0.8.2)
-    msgpack (0.5.8)
+    msgpack (1.2.2)
     pry (0.9.12.4)
       coderay (~> 1.0)
       method_source (~> 0.8)
@@ -35,3 +35,6 @@ DEPENDENCIES
   rake
   rspec
   url_scrambler!
+
+BUNDLED WITH
+   1.16.1
