@@ -2,6 +2,8 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
+require 'url_scrambler/version'
+
 Gem::Specification.new do |spec|
   spec.name     = 'url_scrambler'
   spec.version  = UrlScrambler::VERSION
