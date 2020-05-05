@@ -1,4 +1,4 @@
-source 'http://gems.services.jqdev.net'
+source 'https://repositories.services.jqdev.net/repository/rubygems/'
 
 gemspec
 
